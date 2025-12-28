@@ -21,5 +21,24 @@ st.markdown(
     "and :blue-background[highlight] text."
 )
 
+st.markdown("Here's a bouquet &mdash;\
+            :tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
+
+st.subheader("Contoh Komponen Tambahan")
+
+hobi = st.selectbox(
+    "Pilih hobi kamu:",
+    ["Membaca", "Olahraga", "Ngoding", "Traveling"]
+)
+
+if st.button("Submit"):
+    st.success(f"Hobi kamu adalah {hobi} 👍")
+
+
+
+
+
+
+
 
 
